@@ -1,4 +1,5 @@
-package learn_javacore;
+package lab01;
+
 import javax.swing.JOptionPane;
 
 public class FIrstDialog {

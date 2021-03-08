@@ -1,4 +1,4 @@
-package learn_javacore;
+package lab01;
 
 public class helloworld {
 	public static void main(String[] args) {

@@ -4,7 +4,7 @@ public class AddTwoMatrices {
 	private int [][]mat1;
 	private int [][]mat2;
 	
-	public static AddTwoMatrices(int[][] mat1, int[][] mat2) {
+	public AddTwoMatrices(int[][] mat1, int[][] mat2) {
 		this.mat1 = mat1;
 		this.mat2 = mat2;
 	};
@@ -46,7 +46,7 @@ public class AddTwoMatrices {
 		}
 	}
 	
-	public static void main() {
+	public static void main(String[] args) {
 		int[][] m1 = {{1,2,3},{4,5,6},{7,8,9}};
 		int[][] m2 = {{-1,-2,-3},{-4,-5,-6},{-7,-8,-9}};
 		AddTwoMatrices ATM = new AddTwoMatrices(m1,m2);
